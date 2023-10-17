@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{F37415C2-ADCE-4DA2-9418-01EAE3B66DBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{5455CA9E-8AEB-4C7B-B331-CA40B0D5DF9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{F7690F55-C0EC-4E36-BB2E-41BF3DA18F82}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{8D46C59C-66DA-4C33-9B3B-45FAE5EBF64C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{03D54048-0F11-45F1-9512-15CF5D9048CA}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{563C25C2-5FA4-4DAA-9B0F-AB566F2F4C72}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{8E499AA6-D9F0-424D-B699-E94123DD6CC1}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sky_PLS_Test_Automator", "Sky_PLS_Test_Automator", "{78A91103-AAC1-40C9-86AD-F2CA0AB9F25D}"
+	ProjectSection(SolutionItems) = preProject
+		Sky_PLS_Test_Automator.xml = Sky_PLS_Test_Automator.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{939F4426-59D3-45F7-9FEE-72F96E7B07D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sky_PLS_Test_Automator_1", "Sky_PLS_Test_Automator_1\Sky_PLS_Test_Automator_1.csproj", "{63EA6FA4-1A43-4438-BAD3-EAC662E05193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63EA6FA4-1A43-4438-BAD3-EAC662E05193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EA6FA4-1A43-4438-BAD3-EAC662E05193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EA6FA4-1A43-4438-BAD3-EAC662E05193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EA6FA4-1A43-4438-BAD3-EAC662E05193}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03D54048-0F11-45F1-9512-15CF5D9048CA} = {8D46C59C-66DA-4C33-9B3B-45FAE5EBF64C}
+		{8E499AA6-D9F0-424D-B699-E94123DD6CC1} = {F37415C2-ADCE-4DA2-9418-01EAE3B66DBC}
+		{78A91103-AAC1-40C9-86AD-F2CA0AB9F25D} = {5455CA9E-8AEB-4C7B-B331-CA40B0D5DF9C}
+		{939F4426-59D3-45F7-9FEE-72F96E7B07D9} = {78A91103-AAC1-40C9-86AD-F2CA0AB9F25D}
+		{63EA6FA4-1A43-4438-BAD3-EAC662E05193} = {939F4426-59D3-45F7-9FEE-72F96E7B07D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD631663-AD8D-489D-9C98-BBBAE00358F1}
+	EndGlobalSection
+EndGlobal
